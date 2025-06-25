@@ -1,5 +1,9 @@
-val_1 = float(input('Value 1: '))
-val_2 = float(input('Value 2: '))
+try:
+    val_1 = float(input('Value 1: '))
+    val_2 = float(input('Value 2: '))
+except:
+    print('Invalid input. Try again')
+    quit()
 
 op = input('Operation (+, -, x, /): ')
 
