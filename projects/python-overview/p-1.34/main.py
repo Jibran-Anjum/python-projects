@@ -10,8 +10,13 @@ typos.
 """
 
 def write():
+    """Print out the sentence 100 times.
+
+    With eight random typos.
+    """
     sentence = 'I will never spam my friends again.'
     for i in range(1, 101):
+        """Random typos"""
         if i == 25:
             print(f'{i}. I will nevr spam my friends again.')
             continue
@@ -35,9 +40,11 @@ def write():
             continue
         if i == 97:
             print(f'{i}. I will nevre spam my friends again.')
+
+        """The sentence."""
         print(f'{i}. {sentence}')
 
 
 
 if __name__ == '__main__':
-    write()
+    write()    # Function call
