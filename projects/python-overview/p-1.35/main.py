@@ -28,5 +28,3 @@ if __name__ == '__main__':
     for i in n:
         probability = calc_probability(i)
         print(f'Group size: {i}, Probability of shared birthdays: {-1*probability}')
-
-
