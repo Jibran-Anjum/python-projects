@@ -1,0 +1,3 @@
+play
+get tired
+play again
